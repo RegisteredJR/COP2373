@@ -1,0 +1,46 @@
+# This Program prompts the user for the desired number of tickets and then displays the number of remaining tickets
+# after their purchase. This will repeat until all tickets have been sold and then will display the total number of
+# buyers.
+
+
+def ticket_sales():
+    # TOTAL_TICKETS is a constant
+    TOTAL_TICKETS = 20
+
+    # This variable updates with the input from the user over time.
+    remaining_tickets = TOTAL_TICKETS
+
+    # Initializes total_buyers variable
+    total_buyers = 0
+
+    while remaining_tickets > 0:
+
+        print(f"There are currently {remaining_tickets} tickets remaining.")
+
+        # user inputs how many tickets wanting to purchase
+        num_tickets = int(input("How many tickets would you like to purchase? "))
+
+        # only allows user to buy between 1 and 4 tickets
+        if num_tickets < 1 or num_tickets > 4:
+
+            print("Sorry, you can't buy that many.")
+            print()
+
+        # does not let user buy more tickets than there are remaining
+        elif num_tickets > remaining_tickets:
+
+            print("Sorry, there are not enough tickets remaining.")
+            print()
+        else:
+
+            # decreases number of tickets remaining
+            remaining_tickets -= num_tickets
+
+            # increases the total_buyers variable
+            total_buyers += 1
+
+    # final print statement displaying how many people bought tickets
+    print(f"The total number of buyers was {total_buyers}")
+
+
+ticket_sales()
