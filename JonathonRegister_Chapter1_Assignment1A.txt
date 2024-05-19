@@ -1,0 +1,20 @@
+Jonathon Register 
+5/18/2024
+
+This program displays how many tickets are available for purchase. It allows the user to purchase up to 4 tickets until the tickets are sold out. Once they are sold out, it displays how many buyers purchased tickets.
+
+variables:
+remaining_tickets
+total_buyers
+
+functions:
+ticket_sales()
+
+1. create function ticket_sales()
+2. initialize variables and constants
+3. use a while loop for remaining tickets staying above 0
+4. if statement to determine the user is inputting between 1 and 4
+5. else if statement to not let them input more than 4
+6. else statement to not let user input more than whats remaining 
+
+https://github.com/RegisteredJR
