@@ -1,0 +1,20 @@
+Jonathon Register 
+5/18/2024
+
+This program creates a magic 8-ball game and repeats the game until the user is done. It takes the predetermined answers and creates a .txt file. In a while loop, it takes a randomly generated number and uses that number to choose a random line in the .txt file and displays that randomly chosen line and continues to do so until the user is done.
+
+variables:
+index
+
+functions:
+main()
+
+1. create main()
+2. create list reply_strings
+3. create text file 8_ball_responses
+4. add the reply_strings to the .txt file
+5. take user input and put into while loop
+6. generates random number from 1-12 and reaches into text file to grab the line of that number
+7. Displays the line chosen and repeats until user ends the game
+
+https://github.com/RegisteredJR
