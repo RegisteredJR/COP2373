@@ -1,0 +1,21 @@
+Jonathon Register 
+5/24/2024
+
+This program creates a list of 30 commonly found words from spam messages, emails, phone calls, etc. and prompts the user to enter an email message. The program will then scan the message from the user for the 30 words or phrases and for every match, the program will add one point to the user's "spam score". It will then rate the likelihood that the message is spam based on the number of points received and will display the user's sopan score, the likelihood and the words/phrases that caused it to be spam. 
+
+variables:
+spam_score
+
+functions:
+main()
+calc_spam_score()
+
+
+1. create list spam_keywords, containing the 30 phrases/words
+2. create function to calculate the spam score, calc_spam_score()
+3. use for loop to check for the keywords from the user's message
+4. in the main() function it will ask the user to input their message
+5. it will then print out the user's spam score and the likelihood of spam in a percentage format
+6. uses if statement to determine whether the user had any of the 30 words/phrases in their message, and then prints out the words/phrases used in their message
+
+https://github.com/RegisteredJR
