@@ -1,0 +1,25 @@
+Jonathon Register 
+5/28/2024
+
+This program is to help the user track their expenses and displays the highest, lowest expenses and adds up the totals to diplay the total expenses. Program also utilizes the reduce method and the lambda functions within the code.
+
+variables:
+amount
+total_expense
+highest_expense
+lowest_expense
+
+functions:
+main()
+analyze_expenses()
+get_expenses()
+
+
+1. create function get_expenses, get the user inputs for their expenses
+2. utilizes while loop to confirm user interaction
+3. creates function analyze_expenses to calculate the total of the expenses, the highest expense and the lowest expense
+4. in this function, lambda functions and the reduce method are used in conjuction to calculate all of the expenses
+5. creates main function where the expenses are then displayed
+
+
+https://github.com/RegisteredJR
