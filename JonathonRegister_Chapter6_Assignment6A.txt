@@ -1,0 +1,18 @@
+Jonathon Register 
+6/22/2024
+
+This program is to help the user track their expenses and displays the highest, lowest expenses and adds up the totals to diplay the total expenses. Program also utilizes the reduce method and the lambda functions within the code.
+
+variables:
+phone_number
+ssn
+zip_code
+
+functions:
+main()
+
+1. Prompts the user to input a phone number, SSN, and zip code.
+2. Uses the validation functions to check if each input matches the corresponding pattern.
+3. Prints whether each input is valid or not based on the validation results.
+
+https://github.com/RegisteredJR
