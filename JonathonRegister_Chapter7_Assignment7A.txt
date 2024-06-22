@@ -1,0 +1,23 @@
+Jonathon Register 
+6/22/2024
+
+This program allows the user to have any number of sentences, including sentences that begins with numbers. Then the program displays the sentences and the count of sentences.
+
+variables:
+text
+sentences
+num_sentences
+pattern
+
+functions:
+main()
+count_sentences
+
+1. Takes a text parameter which contains multiple sentences.
+2. Uses re.split() with the specified pattern to split the text into a list of sentences.
+3. Prints each sentence along with its index (starting from 1).
+4. Counts and prints the total number of sentences found.
+5. Prompts the user to input text containing multiple sentences.
+6. Calls count_sentences with the user-input text to display and count the sentences.
+
+https://github.com/RegisteredJR
