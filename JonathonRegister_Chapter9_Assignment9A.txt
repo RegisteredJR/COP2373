@@ -1,0 +1,22 @@
+Jonathon Register 
+7/6/2024
+
+This program is designed to simulate basic banking operation through the BankAcct python class. Stored is the following state information: name, account number, amount and interest rate. Then different methods for adjusting the interest rate, withdrawing and depositing and for giving a balance. Also uses a method to calculate the interest based on the number of days. the __str__ method is used to display balances and interest amounts. The test function is used to test the different methods in the BankAcct Class. 
+
+variables:
+name
+account_number
+amount
+interest_rate
+
+methods:
+set_interest_rate(new_interest_rate)
+deposit(amount)
+withdraw(amount)
+balance()
+calculate_interest(days)
+
+1. creates the BankAcct Class with multiple methods for utilizing in a bank environment
+2. tests the features for the user to see the output
+
+https://github.com/RegisteredJR
