@@ -1,0 +1,20 @@
+Jonathon Register 
+7/13/2024
+
+This program rewrites the BankAcct Class from Assignment 9A, and inherits from our new Money Class. Uses the add and subtract methods from the Money Class in the new program.
+
+variables:
+amount
+currency
+
+functions:
+test_bank_account()
+
+1. create Money Class to implement arithmetic operations abnd multiplication
+2. create BankAcct Class to inherit from the Money Class
+3. Deposit and withdraw uses the inherited add and subtract methods
+4. create test function test_bank_account() to verify the functions of the BankAcct Class
+5. output details of account, and the results of the operations/functions
+
+
+https://github.com/RegisteredJR
