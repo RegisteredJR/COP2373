@@ -1,0 +1,22 @@
+Jonathon Register 
+7/13/2024
+
+This program completes the class definition of Money so that addition, multiplication, and subtraction are all supported. Then we create a test function to make sure all the operations from the Money class work. 
+
+variables:
+amount
+currency
+
+functions:
+test_money_operations()
+
+1. creates Money class
+2. initialize Money object with specified amount and currency
+3. implement addition/subtraction and multiplication for the Money objects
+4. __str__ returns a string representation of the Money object
+5. test_money_operations() tests the operations of the Money class
+6. performs addition, subtraction and multiplication
+7. verifies that operations on different currencies raise the appropriate exceptions
+8. prints results
+
+https://github.com/RegisteredJR
