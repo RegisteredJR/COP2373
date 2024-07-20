@@ -1,0 +1,23 @@
+Jonathon Register 
+7/20/2024
+
+This program determines the length of a hypotenuse of a right triangle, from the information given by the user. The user inputs the nearest angle, and the length of the adjacent side.
+
+variables:
+angle_degrees
+adjacent_side
+hypotenuse
+
+functions:
+calculate_hypotenuse(angle_degrees, adjacent_side)
+main()
+
+1. create the calculate_hypotenuse(angle_degrees, adjacent_side) function
+2. utilize convertion of degrees to radians for the angle
+3. calculate hypotenuse using trigonometry
+4. input from user to get the angle/adjacent side length
+5. if statement to cancel any errors out
+6. print result
+
+
+https://github.com/RegisteredJR
