@@ -1,0 +1,21 @@
+Jonathon Register 
+7/20/2024
+
+This program utilizes the Deck object from section 11.5. Program deals a Poker hand of five cards to the user and then prompts the user to select any cards to be replaced during the draw phase. Program then prints the final result of drawing cards.
+
+variables:
+suits
+ranks
+
+functions:
+print_hand(hand)
+play_poker()
+
+1. create Card Class
+2. create Deck Class
+3. in Deck Class, create the entire deck of cards and shuffles the cards in random order user random.shuffle
+4. print_hand(hand) function to create the current hand for the user
+5. the main function play_poker() used to play the game for user
+
+
+https://github.com/RegisteredJR
