@@ -1,0 +1,41 @@
+Jonathon Register 
+7/27/2024
+
+This program creates a database and table with 10 cities of Florida. Utilizes a function to simulate population growth for the next 20 years at 2%. 
+
+variables():
+db_name
+conn
+cursor
+cities_data
+city
+initial_year
+years
+growth_rate
+initial_population
+population_data
+new_year
+new_population
+data
+populations
+cities
+idx
+choice
+chosen_city
+
+functions:
+simulate_population_growth(city, initial_year, years=20, growth_rate=0.02)
+plot_population_growth(city)
+main()
+
+1. import SQLite3 and matplotlib
+2. define database name and connect to database
+3. create table
+4. define and insert data into table
+5. create the simulation of population growth
+6. insert simulation data
+7. plot data using matplotlib
+8. get user input and display data
+
+
+https://github.com/RegisteredJR
