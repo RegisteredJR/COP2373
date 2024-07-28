@@ -1,0 +1,24 @@
+Jonathon Register 
+7/27/2024
+
+This program processes a CSV file and loads said file into a numpy array. The program performs various statistical calculations and operations to gain insights into the dataset.
+
+variables():
+mean
+median
+std_dev
+minimum
+maximum
+
+functions:
+main()
+
+1. import numpy 
+2. load the csv file and import into numpy array
+2.5. (MAKE SURE CSV PATH IS PROPERLY INPUTTED IN CODE)
+3. prints out first few files 
+4. stats for each exam analysed with mean, median, standard deviation, minimum and maximum.
+5. print out results for all entries from the .csv file
+
+
+https://github.com/RegisteredJR
